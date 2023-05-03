@@ -1,0 +1,24 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+/*declaration variable colore**/
+$sky : #32A2B8;
+$custom-color : (
+    "sky" : $sky,
+);
+$theme-colors : map-merge($theme-colors , $custom-color);
+
+/*declaration variable size*/
+// $size : 5px;
+// $custom-size : (
+//     0 : 0 ,
+//     1 : $size*1 ,
+//     2 : $size*2 ,
+//     3 : $size*3 ,
+//     4 : $size*4 , 
+//     5 : $size*5 ,
+//     6 : $size*6 ,
+//     7 : $size*7 ,
+//     8 : $size*20 ,
+// );
+// $sizes : map-merge($sizes , $custom-size );
